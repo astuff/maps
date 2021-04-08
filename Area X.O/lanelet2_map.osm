@@ -2823,6 +2823,30 @@
   <node id='-164451' action='modify' lat='45.31521197219' lon='-75.7578397644'>
     <tag k='ele' v='61.6774201844' />
   </node>
+  <node id='-164455' action='modify' lat='45.31769640491' lon='-75.75340086172' />
+  <node id='-164456' action='modify' lat='45.31774662131' lon='-75.75366975317' />
+  <node id='-164525' action='modify' lat='45.31772418786' lon='-75.75339036822' />
+  <node id='-164526' action='modify' lat='45.31777440423' lon='-75.75365925968' />
+  <node id='-164548' action='modify' lat='45.31766862196' lon='-75.75341135521' />
+  <node id='-164549' action='modify' lat='45.31771883838' lon='-75.75368024666' />
+  <node id='-164567' action='modify' lat='45.31759007803' lon='-75.7532915617' />
+  <node id='-164568' action='modify' lat='45.317095691' lon='-75.75348501636' />
+  <node id='-164569' action='modify' lat='45.31646479331' lon='-75.75374049744' />
+  <node id='-164570' action='modify' lat='45.31568016875' lon='-75.75404761037' />
+  <node id='-164571' action='modify' lat='45.31457111358' lon='-75.75448749265' />
+  <node id='-164572' action='modify' lat='45.3139090652' lon='-75.75475303134' />
+  <node id='-164573' action='modify' lat='45.31347288167' lon='-75.75492569754' />
+  <node id='-164574' action='modify' lat='45.31330948908' lon='-75.75498940001' />
+  <node id='-164575' action='modify' lat='45.31291833544' lon='-75.75514262153' />
+  <node id='-164576' action='modify' lat='45.31281624336' lon='-75.75518587182' />
+  <node id='-164577' action='modify' lat='45.31270872843' lon='-75.75523918072' />
+  <node id='-164578' action='modify' lat='45.3126358728' lon='-75.75528310189' />
+  <node id='-164579' action='modify' lat='45.31256113084' lon='-75.75533205221' />
+  <node id='-164580' action='modify' lat='45.31234397802' lon='-75.75548192097' />
+  <node id='-164581' action='modify' lat='45.31209640837' lon='-75.75566229953' />
+  <node id='-164582' action='modify' lat='45.31138906103' lon='-75.75617460212' />
+  <node id='-164583' action='modify' lat='45.31073357751' lon='-75.75664667091' />
+  <node id='-164584' action='modify' lat='45.31039545775' lon='-75.75688404573' />
   <way id='-160415' action='modify'>
     <nd ref='-161018' />
     <nd ref='-161019' />
@@ -5004,6 +5028,38 @@
     <nd ref='-163736' />
     <tag k='subtype' v='solid' />
     <tag k='type' v='line_thin' />
+  </way>
+  <way id='-163763' action='modify'>
+    <nd ref='-164455' />
+    <nd ref='-164456' />
+  </way>
+  <way id='-163768' action='modify'>
+    <nd ref='-164525' />
+    <nd ref='-164526' />
+  </way>
+  <way id='-163769' action='modify'>
+    <nd ref='-164548' />
+    <nd ref='-164549' />
+  </way>
+  <way id='-163770' action='modify'>
+    <nd ref='-164567' />
+    <nd ref='-164568' />
+    <nd ref='-164569' />
+    <nd ref='-164570' />
+    <nd ref='-164571' />
+    <nd ref='-164572' />
+    <nd ref='-164573' />
+    <nd ref='-164574' />
+    <nd ref='-164575' />
+    <nd ref='-164576' />
+    <nd ref='-164577' />
+    <nd ref='-164578' />
+    <nd ref='-164579' />
+    <nd ref='-164580' />
+    <nd ref='-164581' />
+    <nd ref='-164582' />
+    <nd ref='-164583' />
+    <nd ref='-164584' />
   </way>
   <relation id='-160560' action='modify'>
     <member type='relation' ref='-160582' role='regulatory_element' />
