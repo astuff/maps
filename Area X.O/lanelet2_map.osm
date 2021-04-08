@@ -3419,12 +3419,6 @@
     <tag k='subtype' v='solid' />
     <tag k='type' v='line_thick' />
   </way>
-  <way id='-160499' action='modify'>
-    <nd ref='-160881' />
-    <nd ref='-161027' />
-    <tag k='subtype' v='solid' />
-    <tag k='type' v='line_thick' />
-  </way>
   <way id='-160501' action='modify'>
     <nd ref='-161029' />
     <nd ref='-161030' />
@@ -5005,6 +4999,12 @@
     <tag k='subtype' v='solid' />
     <tag k='type' v='line_thin' />
   </way>
+  <way id='-163764' action='modify'>
+    <nd ref='-160881' />
+    <nd ref='-161029' />
+    <tag k='subtype' v='solid' />
+    <tag k='type' v='line_thick' />
+  </way>
   <relation id='-160560' action='modify'>
     <member type='relation' ref='-160582' role='regulatory_element' />
     <member type='way' ref='-160416' role='left' />
@@ -5093,7 +5093,6 @@
     <tag k='type' v='lanelet' />
   </relation>
   <relation id='-160569' action='modify'>
-    <member type='relation' ref='-160609' role='regulatory_element' />
     <member type='way' ref='-160433' role='right' />
     <member type='way' ref='-160436' role='left' />
     <tag k='location' v='urban' />
@@ -5416,6 +5415,7 @@
     <tag k='type' v='lanelet' />
   </relation>
   <relation id='-160602' action='modify'>
+    <member type='relation' ref='-160609' role='regulatory_element' />
     <member type='way' ref='-160501' role='right' />
     <member type='way' ref='-160436' role='left' />
     <tag k='location' v='urban' />
@@ -5479,9 +5479,9 @@
     <tag k='type' v='regulatory_element' />
   </relation>
   <relation id='-160609' action='modify'>
+    <member type='way' ref='-163764' role='ref_line' />
     <member type='way' ref='-160558' role='light_bulbs' />
     <member type='way' ref='-160517' role='refers' />
-    <member type='way' ref='-160499' role='ref_line' />
     <tag k='subtype' v='traffic_light' />
     <tag k='type' v='regulatory_element' />
   </relation>
