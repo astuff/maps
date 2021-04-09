@@ -3231,6 +3231,15 @@
   <node id='-165047' action='modify' lat='45.30700131093' lon='-75.76482373395'>
     <tag k='ele' v='58.979412828' />
   </node>
+  <node id='-165092' action='modify' lat='45.31115822629' lon='-75.75638666503'>
+    <tag k='ele' v='59.0548882293' />
+  </node>
+  <node id='-165093' action='modify' lat='45.31114490146' lon='-75.75635044259'>
+    <tag k='ele' v='59.0548882293' />
+  </node>
+  <node id='-165094' action='modify' lat='45.31113232724' lon='-75.75631367958'>
+    <tag k='ele' v='59.0548882293' />
+  </node>
   <way id='-160415' action='modify'>
     <nd ref='-161018' />
     <nd ref='-161019' />
@@ -5446,6 +5455,7 @@
     <nd ref='-164580' />
     <nd ref='-164581' />
     <nd ref='-164582' />
+    <nd ref='-165093' />
     <nd ref='-164583' />
     <nd ref='-164584' />
     <nd ref='-164653' />
@@ -5513,6 +5523,7 @@
     <nd ref='-164668' />
     <nd ref='-164669' />
     <nd ref='-164670' />
+    <nd ref='-165092' />
     <nd ref='-164671' />
     <nd ref='-164672' />
     <nd ref='-164655' />
@@ -5523,6 +5534,7 @@
     <nd ref='-164695' />
     <nd ref='-164712' />
     <nd ref='-164711' />
+    <nd ref='-165094' />
     <nd ref='-164710' />
     <nd ref='-164709' />
     <nd ref='-164708' />
@@ -5657,6 +5669,18 @@
     <nd ref='-164832' />
     <tag k='subtype' v='solid' />
     <tag k='type' v='line_thin' />
+  </way>
+  <way id='-164043' action='modify'>
+    <nd ref='-164666' />
+    <nd ref='-164578' />
+    <nd ref='-164706' />
+    <tag k='type' v='bump' />
+  </way>
+  <way id='-164108' action='modify'>
+    <nd ref='-165092' />
+    <nd ref='-165093' />
+    <nd ref='-165094' />
+    <tag k='type' v='bump' />
   </way>
   <relation id='-160560' action='modify'>
     <member type='relation' ref='-160582' role='regulatory_element' />
@@ -7187,7 +7211,7 @@
   <relation id='-160924' action='modify'>
     <member type='way' ref='-163808' role='right' />
     <member type='way' ref='-163770' role='left' />
-    <tag k='location' v='urban' />
+    <tag k='location' v='nonurban' />
     <tag k='one_way' v='yes' />
     <tag k='region' v='de' />
     <tag k='subtype' v='road' />
@@ -7196,7 +7220,7 @@
   <relation id='-160926' action='modify'>
     <member type='way' ref='-163809' role='right' />
     <member type='way' ref='-163770' role='left' />
-    <tag k='location' v='urban' />
+    <tag k='location' v='nonurban' />
     <tag k='one_way' v='yes' />
     <tag k='region' v='de' />
     <tag k='subtype' v='road' />
@@ -7205,7 +7229,7 @@
   <relation id='-160928' action='modify'>
     <member type='way' ref='-164032' role='right' />
     <member type='way' ref='-164029' role='left' />
-    <tag k='location' v='urban' />
+    <tag k='location' v='nonurban' />
     <tag k='one_way' v='yes' />
     <tag k='region' v='de' />
     <tag k='subtype' v='road' />
@@ -7214,7 +7238,7 @@
   <relation id='-160930' action='modify'>
     <member type='way' ref='-163836' role='left' />
     <member type='way' ref='-163835' role='right' />
-    <tag k='location' v='urban' />
+    <tag k='location' v='nonurban' />
     <tag k='one_way' v='yes' />
     <tag k='region' v='de' />
     <tag k='subtype' v='road' />
@@ -7223,7 +7247,7 @@
   <relation id='-160932' action='modify'>
     <member type='way' ref='-163867' role='left' />
     <member type='way' ref='-163843' role='right' />
-    <tag k='location' v='urban' />
+    <tag k='location' v='nonurban' />
     <tag k='one_way' v='yes' />
     <tag k='region' v='de' />
     <tag k='subtype' v='road' />
@@ -7233,7 +7257,7 @@
   <relation id='-160936' action='modify'>
     <member type='way' ref='-164004' role='left' />
     <member type='way' ref='-164007' role='right' />
-    <tag k='location' v='urban' />
+    <tag k='location' v='nonurban' />
     <tag k='one_way' v='yes' />
     <tag k='region' v='de' />
     <tag k='subtype' v='road' />
