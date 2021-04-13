@@ -3240,6 +3240,24 @@
   <node id='-165094' action='modify' lat='45.31113232724' lon='-75.75631367958'>
     <tag k='ele' v='59.0548882293' />
   </node>
+  <node id='-165096' action='modify' lat='45.31409744728' lon='-75.74694914321'>
+    <tag k='ele' v='61.0163707821' />
+  </node>
+  <node id='-165097' action='modify' lat='45.31414389451' lon='-75.7469843472'>
+    <tag k='ele' v='61.0246489415' />
+  </node>
+  <node id='-165098' action='modify' lat='45.31418633356' lon='-75.74672651986'>
+    <tag k='ele' v='61.0196080295' />
+  </node>
+  <node id='-165099' action='modify' lat='45.3160390031' lon='-75.74207054029'>
+    <tag k='ele' v='61.0216193827' />
+  </node>
+  <node id='-165100' action='modify' lat='45.31424008989' lon='-75.74674127235'>
+    <tag k='ele' v='61.0386370191' />
+  </node>
+  <node id='-165101' action='modify' lat='45.31607507497' lon='-75.74210004442'>
+    <tag k='ele' v='61.0216193827' />
+  </node>
   <way id='-160415' action='modify'>
     <nd ref='-161018' />
     <nd ref='-161019' />
@@ -5682,6 +5700,40 @@
     <nd ref='-165094' />
     <tag k='type' v='bump' />
   </way>
+  <way id='-164113' action='modify'>
+    <nd ref='-164836' />
+    <nd ref='-165097' />
+    <tag k='subtype' v='solid' />
+    <tag k='type' v='line_thin' />
+  </way>
+  <way id='-164116' action='modify'>
+    <nd ref='-164837' />
+    <nd ref='-165096' />
+    <tag k='subtype' v='solid' />
+    <tag k='type' v='line_thin' />
+  </way>
+  <way id='-164121' action='modify'>
+    <nd ref='-165098' />
+    <nd ref='-165099' />
+    <tag k='subtype' v='solid' />
+    <tag k='type' v='line_thin' />
+  </way>
+  <way id='-164124' action='modify'>
+    <nd ref='-165096' />
+    <nd ref='-165098' />
+    <tag k='type' v='virtual' />
+  </way>
+  <way id='-164139' action='modify'>
+    <nd ref='-165100' />
+    <nd ref='-165101' />
+    <tag k='subtype' v='solid' />
+    <tag k='type' v='line_thin' />
+  </way>
+  <way id='-164142' action='modify'>
+    <nd ref='-165097' />
+    <nd ref='-165100' />
+    <tag k='type' v='virtual' />
+  </way>
   <relation id='-160560' action='modify'>
     <member type='relation' ref='-160582' role='regulatory_element' />
     <member type='way' ref='-160416' role='left' />
@@ -7262,6 +7314,33 @@
     <tag k='region' v='de' />
     <tag k='subtype' v='road' />
     <tag k='turn_direction' v='straight' />
+    <tag k='type' v='lanelet' />
+  </relation>
+  <relation id='-160945' action='modify'>
+    <member type='way' ref='-164113' role='left' />
+    <member type='way' ref='-164116' role='right' />
+    <tag k='location' v='nonurban' />
+    <tag k='one_way' v='yes' />
+    <tag k='region' v='de' />
+    <tag k='subtype' v='road' />
+    <tag k='type' v='lanelet' />
+  </relation>
+  <relation id='-160947' action='modify'>
+    <member type='way' ref='-164139' role='left' />
+    <member type='way' ref='-164121' role='right' />
+    <tag k='location' v='nonurban' />
+    <tag k='one_way' v='yes' />
+    <tag k='region' v='de' />
+    <tag k='subtype' v='road' />
+    <tag k='type' v='lanelet' />
+  </relation>
+  <relation id='-160949' action='modify'>
+    <member type='way' ref='-164142' role='left' />
+    <member type='way' ref='-164124' role='right' />
+    <tag k='location' v='nonurban' />
+    <tag k='one_way' v='yes' />
+    <tag k='region' v='de' />
+    <tag k='subtype' v='road' />
     <tag k='type' v='lanelet' />
   </relation>
 </osm>
