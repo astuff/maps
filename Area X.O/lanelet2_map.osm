@@ -3333,6 +3333,12 @@
   <node id='-165820' action='modify' lat='45.31952191713' lon='-75.75691510595'>
     <tag k='ele' v='61.7498259017' />
   </node>
+  <node id='-175866' action='modify' lat='45.3188335713' lon='-75.76105270095'>
+    <tag k='ele' v='61.7034935722' />
+  </node>
+  <node id='-175867' action='modify' lat='45.31883475006' lon='-75.76104666598'>
+    <tag k='ele' v='61.7034935722' />
+  </node>
   <way id='-160415' action='modify'>
     <nd ref='-161018' />
     <nd ref='-161019' />
@@ -5886,6 +5892,16 @@
     <nd ref='-165819' />
     <nd ref='-165820' />
   </way>
+  <way id='-164503' action='modify'>
+    <nd ref='-161256' />
+    <nd ref='-161268' />
+  </way>
+  <way id='-164518' action='modify'>
+    <nd ref='-175866' />
+    <nd ref='-175867' />
+    <tag k='subtype' v='usR1-1' />
+    <tag k='type' v='traffic_sign' />
+  </way>
   <relation id='-160560' action='modify'>
     <member type='relation' ref='-160582' role='regulatory_element' />
     <member type='way' ref='-160416' role='left' />
@@ -7554,5 +7570,12 @@
     <tag k='region' v='de' />
     <tag k='subtype' v='crosswalk' />
     <tag k='type' v='lanelet' />
+  </relation>
+  <relation id='-160981' action='modify'>
+    <member type='relation' ref='-160651' role='yield' />
+    <member type='way' ref='-164518' role='refers' />
+    <member type='way' ref='-164503' role='ref_line' />
+    <tag k='subtype' v='right_of_way' />
+    <tag k='type' v='regulatory_element' />
   </relation>
 </osm>
