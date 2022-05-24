@@ -7572,6 +7572,7 @@
     <tag k='type' v='lanelet' />
   </relation>
   <relation id='-160981' action='modify'>
+    <member type='relation' ref='-160653' role='right_of_way' />
     <member type='relation' ref='-160651' role='yield' />
     <member type='way' ref='-164518' role='refers' />
     <member type='way' ref='-164503' role='ref_line' />
