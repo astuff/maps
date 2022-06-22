@@ -3333,6 +3333,10 @@
   <node id='-165820' action='modify' lat='45.31952191713' lon='-75.75691510595'>
     <tag k='ele' v='61.7498259017' />
   </node>
+  <node id='-165887' action='modify' lat='45.30607861765' lon='-75.76725744088' />
+  <node id='-165888' action='modify' lat='45.3070301883' lon='-75.76484886507' />
+  <node id='-165889' action='modify' lat='45.3079983839' lon='-75.76241643677' />
+  <node id='-165890' action='modify' lat='45.30806700113' lon='-75.76224511066' />
   <way id='-160415' action='modify'>
     <nd ref='-161018' />
     <nd ref='-161019' />
@@ -5886,6 +5890,12 @@
     <nd ref='-165819' />
     <nd ref='-165820' />
   </way>
+  <way id='-164563' action='modify'>
+    <nd ref='-165887' />
+    <nd ref='-165888' />
+    <nd ref='-165889' />
+    <nd ref='-165890' />
+  </way>
   <relation id='-160560' action='modify'>
     <member type='relation' ref='-160582' role='regulatory_element' />
     <member type='way' ref='-160416' role='left' />
@@ -7440,6 +7450,7 @@
     <tag k='type' v='lanelet' />
   </relation>
   <relation id='-160930' action='modify'>
+    <member type='way' ref='-164563' role='centerline' />
     <member type='way' ref='-163836' role='left' />
     <member type='way' ref='-163835' role='right' />
     <tag k='location' v='nonurban' />
