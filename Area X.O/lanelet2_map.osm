@@ -4490,11 +4490,6 @@
     <tag k='type' v='line_thin' />
   </way>
   <way id='-160754' action='modify'>
-    <nd ref='-161251' />
-    <nd ref='-161252' />
-    <nd ref='-161253' />
-    <nd ref='-161254' />
-    <nd ref='-161255' />
     <nd ref='-161256' />
     <nd ref='-161257' />
     <nd ref='-161258' />
@@ -4514,11 +4509,6 @@
     <tag k='type' v='virtual' />
   </way>
   <way id='-160777' action='modify'>
-    <nd ref='-161263' />
-    <nd ref='-161264' />
-    <nd ref='-161265' />
-    <nd ref='-161266' />
-    <nd ref='-161267' />
     <nd ref='-161268' />
     <nd ref='-161269' />
     <nd ref='-161270' />
@@ -5902,6 +5892,27 @@
     <tag k='subtype' v='usR1-1' />
     <tag k='type' v='traffic_sign' />
   </way>
+  <way id='-164521' action='modify'>
+    <nd ref='-161263' />
+    <nd ref='-161264' />
+    <nd ref='-161265' />
+    <nd ref='-161266' />
+    <nd ref='-161267' />
+    <nd ref='-161268' />
+    <tag k='subtype' v='solid' />
+    <tag k='type' v='line_thin' />
+  </way>
+  <way id='-164524' action='modify'>
+    <nd ref='-161251' />
+    <nd ref='-161252' />
+    <nd ref='-161253' />
+    <nd ref='-161254' />
+    <nd ref='-161255' />
+    <nd ref='-161256' />
+    <tag k='color' v='yellow' />
+    <tag k='subtype' v='solid' />
+    <tag k='type' v='line_thin' />
+  </way>
   <relation id='-160560' action='modify'>
     <member type='relation' ref='-160582' role='regulatory_element' />
     <member type='way' ref='-160416' role='left' />
@@ -6655,8 +6666,8 @@
     <tag k='type' v='lanelet' />
   </relation>
   <relation id='-160651' action='modify'>
-    <member type='way' ref='-160777' role='right' />
-    <member type='way' ref='-160754' role='left' />
+    <member type='way' ref='-164521' role='right' />
+    <member type='way' ref='-164524' role='left' />
     <tag k='location' v='urban' />
     <tag k='one_way' v='yes' />
     <tag k='region' v='de' />
@@ -6665,6 +6676,7 @@
   </relation>
   <relation id='-160653' action='modify'>
     <member type='way' ref='-160627' role='right' />
+    <member type='way' ref='-164524' role='left' />
     <member type='way' ref='-160754' role='left' />
     <tag k='location' v='urban' />
     <tag k='one_way' v='yes' />
@@ -7578,5 +7590,14 @@
     <member type='way' ref='-164503' role='ref_line' />
     <tag k='subtype' v='right_of_way' />
     <tag k='type' v='regulatory_element' />
+  </relation>
+  <relation id='-161000' action='modify'>
+    <member type='way' ref='-160777' role='right' />
+    <member type='way' ref='-160754' role='left' />
+    <tag k='location' v='urban' />
+    <tag k='one_way' v='yes' />
+    <tag k='region' v='de' />
+    <tag k='subtype' v='road' />
+    <tag k='type' v='lanelet' />
   </relation>
 </osm>
