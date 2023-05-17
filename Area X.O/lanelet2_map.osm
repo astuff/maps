@@ -6006,54 +6006,66 @@
   <way id='-164250' action='modify'>
     <nd ref='-165252' />
     <nd ref='-165231' />
+    <tag k='type' v='pedestrian_marking' />
   </way>
   <way id='-164253' action='modify'>
     <nd ref='-165271' />
     <nd ref='-160955' />
+    <tag k='type' v='pedestrian_marking' />
   </way>
   <way id='-164257' action='modify'>
     <nd ref='-160951' />
     <nd ref='-161001' />
+    <tag k='type' v='pedestrian_marking' />
   </way>
   <way id='-164258' action='modify'>
     <nd ref='-165188' />
     <nd ref='-163653' />
+    <tag k='type' v='pedestrian_marking' />
   </way>
   <way id='-164291' action='modify'>
     <nd ref='-165328' />
     <nd ref='-165339' />
+    <tag k='type' v='pedestrian_marking' />
   </way>
   <way id='-164292' action='modify'>
     <nd ref='-163647' />
     <nd ref='-161150' />
+    <tag k='type' v='pedestrian_marking' />
   </way>
   <way id='-164322' action='modify'>
     <nd ref='-165355' />
     <nd ref='-165367' />
+    <tag k='type' v='pedestrian_marking' />
   </way>
   <way id='-164323' action='modify'>
     <nd ref='-163619' />
     <nd ref='-165307' />
+    <tag k='type' v='pedestrian_marking' />
   </way>
   <way id='-164466' action='modify'>
     <nd ref='-165793' />
     <nd ref='-165794' />
     <nd ref='-165795' />
+    <tag k='type' v='pedestrian_marking' />
   </way>
   <way id='-164471' action='modify'>
     <nd ref='-165773' />
     <nd ref='-165781' />
     <nd ref='-165792' />
+    <tag k='type' v='pedestrian_marking' />
   </way>
   <way id='-164484' action='modify'>
     <nd ref='-165811' />
     <nd ref='-165812' />
     <nd ref='-165813' />
+    <tag k='type' v='pedestrian_marking' />
   </way>
   <way id='-164494' action='modify'>
     <nd ref='-165818' />
     <nd ref='-165819' />
     <nd ref='-165820' />
+    <tag k='type' v='pedestrian_marking' />
   </way>
   <way id='-164803' action='modify'>
     <nd ref='-162415' />
