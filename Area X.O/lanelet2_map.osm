@@ -3552,14 +3552,6 @@
   <node id='-193791' action='modify' lat='45.32196275361' lon='-75.75881955227'>
     <tag k='ele' v='60.8269662553' />
   </node>
-  <node id='-193834' action='modify' lat='45.32200642443' lon='-75.75869629637'>
-    <tag k='color' v='red' />
-    <tag k='ele' v='60.8269662553' />
-  </node>
-  <node id='-193835' action='modify' lat='45.32200782414' lon='-75.75869575154'>
-    <tag k='color' v='green' />
-    <tag k='ele' v='60.8269662553' />
-  </node>
   <way id='-165401' action='modify'>
     <nd ref='-192763' />
     <nd ref='-192764' />
@@ -6372,12 +6364,6 @@
     <nd ref='-193790' />
     <nd ref='-193791' />
   </way>
-  <way id='-165773' action='modify'>
-    <nd ref='-193834' />
-    <nd ref='-193835' />
-    <tag k='traffic_light_id' v='-165725' />
-    <tag k='type' v='light_bulbs' />
-  </way>
   <relation id='-161118' action='modify'>
     <member type='relation' ref='-161140' role='regulatory_element' />
     <member type='way' ref='-165402' role='left' />
@@ -8218,7 +8204,6 @@
     <tag k='type' v='lanelet' />
   </relation>
   <relation id='-161407' action='modify'>
-    <member type='way' ref='-165773' role='light_bulbs' />
     <member type='way' ref='-165717' role='ref_line' />
     <member type='way' ref='-165725' role='refers' />
     <tag k='subtype' v='traffic_light' />
